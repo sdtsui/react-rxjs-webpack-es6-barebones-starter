@@ -1,6 +1,6 @@
 {
   "name": "react-rxjs-webpack-es6-barebones-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Barebones starter kit for React and RxJS, using Webpack and ES6.",
   "main": "index.js",
   "scripts": {
