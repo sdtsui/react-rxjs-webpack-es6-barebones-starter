@@ -2,5 +2,5 @@
 Barebones starter kit for React and RxJS, using Webpack and ES6.  
 
 # Instructions  
-`npm run dev` to run webpack
-`npm run serve` to serve your app  
+`npm run dev` to run webpack  
+`npm run serve` to serve your app on port `9000`  
