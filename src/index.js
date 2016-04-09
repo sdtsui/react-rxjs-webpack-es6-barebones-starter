@@ -1,10 +1,9 @@
 let Rx = require('rx');
 let React = require('react');
 let ReactDOM = require('react-dom');
+import App from './components/App.react.js';
 
-let Model = {
-  subject : new Rx.ReplaySubject(1);
-};
-
-let Observable = Model.subject.map((appState) => {return appState;});
-
+ReactDOM.render(
+  <App/>,
+  document.getElementById('app')
+);
