@@ -1,0 +1,23 @@
+{
+  "name": "react-rxjs-webpack-es6-barebones-starter",
+  "version": "0.0.1",
+  "description": "Barebones starter kit for React and RxJS, using Webpack and ES6.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -wdc --progress",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdtsui/es6-react-rxjs-webpack-barebones-starter"
+  },
+  "author": "Daniel Tsui",
+  "devDependencies": {
+    "babel-core": "^5.1.11",
+    "babel-loader": "^5.0.0",
+    "react": "^0.14.8",
+    "rx": "^2.5.2",
+    "webpack": "^1.8.9",
+    "react-dom": "^0.14.8"
+  }
+}
