@@ -1,9 +1,10 @@
 import React, { Component, PropTypes } from 'react';
+import StatefulObject from './StatefulObject.react.js';
 
 class App extends Component {
   render() {
     return (
-      <span>Hello World</span>
+        <StatefulObject/>
     );
   }
 }
